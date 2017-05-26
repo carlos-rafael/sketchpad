@@ -1,9 +1,14 @@
 $(document).ready(function(){
 
 
-    for(var i=0;i<10;i++){
-
-        $('#gridContainer').append($("<div class='square'>"));
+    for(var i=0;i<16;i++){
+        for(var j=0;j<16;j++){
+            var square = $('<div class="square"></div>');
+            square.appendTo($('#gridContainer'));
+        }
     }
-            $('#gridContainer').append($("<div class='square1'>"));
+
+    $('.square').hover(function() {
+            $(this).css("background-color","#aa2244");
+    });
 });
