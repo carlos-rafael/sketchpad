@@ -76,7 +76,7 @@ $(document).ready(function(){
 
     console.log('teste');
 
-    var answer = prompt('Choose the number of squares you want, please');
+    var answer = prompt('Choose the number of squares you want ( as the number of rows and comlumns will be equal to the number provided by you), please provide just one number');
 
     deleteGrid();
 
