@@ -8,12 +8,15 @@ body{
     text-align:center;
 }
 
+
 #gridContainer{
+    position:relative;
     padding: 2em;
-    margin:0 auto;
+    margin:10px auto;
     text-align:center;
-    width:192px;
-    height:192px;
+    width:500px;
+    height:500px;
+    font-size: 0px;
 }
 
 
@@ -31,9 +34,20 @@ div{
 }
 
 .square{
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     background-color: white;
-    margin:1px;
+/*    margin:1px;*/
     display:inline-block;
+    font-size: 30px;
+}
+
+input[type=button]{
+    margin:10px;
+    font-family:'Barrio', cursive;
+    width:100px;
+}
+
+input[id=rainbow]{
+    background-color:pink;
 }
